@@ -2,8 +2,8 @@
 import React from 'react'
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Moon, Sun } from "lucide-react"
-import { useTheme } from "next-themes"
+// import { Moon, Sun } from "lucide-react"
+// import { useTheme } from "next-themes"
 const header = () => {
     // const { theme, setTheme } = useTheme()
     return (
