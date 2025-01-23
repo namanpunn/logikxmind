@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 const header = () => {
-    const { theme, setTheme } = useTheme()
+    // const { theme, setTheme } = useTheme()
     return (
         <header className="container mx-auto px-4 py-6 flex justify-between items-center">
             <h1 className="text-2xl font-bold">LogicMinds</h1>
@@ -20,10 +20,10 @@ const header = () => {
             <Button
                 variant="outline"
                 size="icon"
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                // onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                 aria-label="Toggle dark mode"
             >
-                {theme === "dark" ? <Sun className="h-[1.2rem] w-[1.2rem]" /> : <Moon className="h-[1.2rem] w-[1.2rem]" />}
+                {/* {theme === "dark" ? <Sun className="h-[1.2rem] w-[1.2rem]" /> : <Moon className="h-[1.2rem] w-[1.2rem]" />} */}
             </Button>
         </header>
     )

@@ -37,7 +37,7 @@ export default function Testimonials() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-              <p className="text-gray-600 dark:text-gray-400 mb-4">"{testimonial.quote}"</p>
+              <p className="text-gray-600 dark:text-gray-400 mb-4">{testimonial.quote}</p>
               <p className="font-semibold">{testimonial.name}</p>
               <p className="text-sm text-gray-500 dark:text-gray-500">{testimonial.company}</p>
             </motion.div>
